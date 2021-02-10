@@ -41,9 +41,10 @@ The following environment is recommended.
 
 + Ubnuntu 18.04
 + ROS melodic
-+ Ignition gazebo citadel
++ Ignition gazebo citadel( [Binary Installation on Ubuntu Bionic](https://ignitionrobotics.org/docs/citadel/install_ubuntu) )
 
 ```Shell
+export IGNITION_VERSION=citadel
 mkdir -p sim_ws/src
 cd sim_ws/src
 git clone https://github.com/ignitionrobotics/ros_ign.git -b melodic
